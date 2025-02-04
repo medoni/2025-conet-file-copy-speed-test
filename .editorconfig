@@ -1,0 +1,12 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+
+[*.ps1]
+indent_size = 2
+
+[*.sh]
+end_of_line = lf
+indent_size = 2

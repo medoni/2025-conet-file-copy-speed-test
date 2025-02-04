@@ -1,0 +1,9 @@
+* text eol=lf
+
+*.ps1 text
+*.sh text
+*.editorconfig text
+*.md text
+
+*.drawio binary
+*.png binary

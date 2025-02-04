@@ -1,0 +1,15 @@
+# Ignore Rider IDE specific files
+.idea/
+*.sln.iml
+
+# Ignore user-specific files
+*.vs/
+.vscode/
+
+# Ignore OS-specific files
+*.DS_Store
+
+
+/source/
+/source.zip
+/test/
