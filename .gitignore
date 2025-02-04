@@ -9,7 +9,7 @@
 # Ignore OS-specific files
 *.DS_Store
 
-
+# test sources
 /source/
 /source.zip
-/test/
+/tmp/
