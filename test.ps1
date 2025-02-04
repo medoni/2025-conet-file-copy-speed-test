@@ -29,7 +29,7 @@ function Test-CopyFiles() {
   mkdir -p $target_dir 
   
   Write-Output "test copying files ..."
-  Measure-Command { xcopy $source_folder $target_dir /s /e }
+  Measure-Command { robocopy $source_folder $target_dir /s }
   Write-Output "$((ls -r $target_dir | Measure-Object -line).Lines) files copied."
 
 }
