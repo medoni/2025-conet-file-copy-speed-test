@@ -6,7 +6,7 @@ $tmp_folder = "$PSScriptRoot/tmp"
 
 function main() {
   Get-Source  
-  # Test-Dockerfile
+  Test-Dockerfile
   Test-CopyFiles
 }
 

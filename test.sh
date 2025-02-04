@@ -7,7 +7,7 @@ tmp_folder="${BASH_SOURCE%/*}/tmp"
 
 main() {
     get_source
-    # test_dockerfile
+    test_dockerfile
     test_copy_files
 }
 
